@@ -382,7 +382,17 @@ iframe {
 
 }
 
+.container{
+    width:2000px !important;
+}
 
+.section-w {
+
+	background: no-repeat center/80% url("images/1.png");
+
+	padding: 90px 0 100px 0;
+
+}
 
 .section-white {
 
@@ -392,7 +402,61 @@ iframe {
 
 }
 
+.menu {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+  }
+  
+  .menu ul {
+	display: flex;
+	justify-content: space-between;  /* or justify-content: space-around; */
+	align-items: center;
+  }
+  
+  .menu ul li {
+	list-style: none;
+  }
 
+.li-ff {
+	margin-left: 100px;
+}
+
+
+.li-fs {
+	margin-right: 200px;
+}
+
+.li-ffff {
+	margin-right: 75px;
+}
+
+.li-fffff {
+	margin-right: 160px;
+}
+
+.li-fff {
+	margin-left: 160px;
+}
+
+.li-btn-right {
+	margin-right: 560px;
+}
+
+.fffs {
+	line-height: 1.5;
+	margin-right: 20px;
+	margin-left: 100px;
+	color : white;
+}
+
+.ul-ff
+{
+    margin-top: 20px;
+	margin-left: -20px;
+    margin-right: 100px; 
+    padding: 0; 
+   }
 
 .section-grey{
 
@@ -2692,7 +2756,7 @@ input.contact-submit{
 
 	color: #fff;
 
-	background: #1e90ff;
+	background: #1F5BDF;
 
     border: none;
 
@@ -2921,7 +2985,7 @@ p.contact_success_box{
 
 	color: #fff;
 
-	background-color: #1089d4;
+	background-color: #1F5BDF;
 
     box-shadow: 0px 5px 34px 0 rgba(0, 0, 0, 0.27);
 
